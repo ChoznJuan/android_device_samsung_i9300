@@ -83,7 +83,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.android.nfc_extras
 
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+#$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -105,4 +105,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
 
-$(call inherit-product-if-exists, vendor/samsung/i9300/i9300-vendor.mk)
+#$(call inherit-product-if-exists, vendor/samsung/i9300/i9300-vendor.mk)

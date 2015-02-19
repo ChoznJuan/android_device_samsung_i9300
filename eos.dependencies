@@ -1,0 +1,14 @@
+[
+    {
+        "remote": "github",
+        "repository": "ArchiDroid/android_device_samsung_smdk4412-common",
+        "target_path": "device/samsung/smdk4412-common",
+        "revision": "cm-12.0"
+    },
+    {
+        "remote": "github",
+        "repository": "ArchiDroid/android_kernel_samsung_smdk4412",
+        "target_path": "kernel/samsung/smdk4412",
+        "revision": "cm-12.0"
+    }
+]
